@@ -15,6 +15,7 @@ const MoodCardModule = ({ mood = 'Настрій не вказано', comment =
         return moodStyles.default;
     };
 
+
     return (
         <div style={getStyle()}>
             <h3>Ваш настрій сьогодні: {mood}</h3>
